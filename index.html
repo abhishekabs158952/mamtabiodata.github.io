@@ -12,7 +12,7 @@
         }
         .image { 
             margin: auto;
-            width: 419px;
+            width: 425px;
         }
         .imageIcon { 
             width: 20px;
@@ -38,6 +38,9 @@
         .roundLast{
             border-radius: 25px 25px 0px 0px;
             background-image: url('image/1.jpg');
+        }
+        .round2{
+            border-radius: 25px 25px 0px 0px;
         }
         .main2{
             
@@ -81,6 +84,15 @@
             height: 30px;
             color: solid black;
         }
+        .line2{
+            width: 50px;
+            text-transform: capitalize;
+            height: 30px;
+            color: solid white;
+        }
+        .div{
+            margin:0px;
+        }
     </style>
   </head>
   <body>
@@ -117,7 +129,9 @@
                     25th may 1995
                 </p>
             </div>
-            <img class="image" src="image/2.jpg" alt="mamta's pic2" >
+            <div>    
+                <img class="image" src="image/2.jpg" alt="mamta's pic2" >
+            </div>
             <div>
                 <h2 class="mx-5 mt-5">Personal Details</h2>
                 <hr class="mx-5 line" style="height:4px; color:red;">
@@ -142,19 +156,25 @@
             </div>
             
         </div>
-        <div class="mainBlock2 mt-5">
+        <div class="mainBlock2 mt-5 mb-0" >
             <div style="height: 500px;"></div>
-            <div class="round about" style="background-color: white;">
-                <h4 class="mx-5 mt-5 pt-5">In Her Words</h4>
-                <hr class="mx-5 line" style="height:4px; color:red;">
-                <p class="about2 px-5 pb-5">
-                    I am an easy going person with a positive attitude 
-                    towards life. I am simple, soft spoken, respectful, 
-                    an educated person with the right mix of modern and 
-                    traditional cultures.
-                </p>
+            <div class="round2" style="background-color: #4a1c99;">
+                <div class="round2 about" style="background-color: #4a1c99; color: white;">
+                    <h4 class="mx-5 mt-5 pt-5">In Her Words</h4>
+                    <hr class="mx-5 line2" style="height:4px; color:solid .3rem rgba(255,255,255,.8);">
+                    <p class="about2 px-5 pb-5">
+                        I am an easy going person with a positive attitude 
+                        towards life. I am simple, soft spoken, respectful, 
+                        an educated person with the right mix of modern and 
+                        traditional cultures.
+                    </p>
+                </div>
+            <!--</div>
+            <div class="mt-0">-->
+                <div>    
+                    <img class="image" src="image/4.jpg" alt="mamta's pic2" >
+                </div>
             </div>
-            <img class="image" src="image/4.jpg" alt="mamta's pic2" >
             <div class="about" style="background-color: white;">
                 <h4 class="mx-5 mt-5 ">Profession / Education</h4>
                 <hr class="mx-5 line" style="height:4px; color:red;">
